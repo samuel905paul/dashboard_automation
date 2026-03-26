@@ -1,4 +1,4 @@
-# 📊 Executive Dashboard Automation Suite
+# Executive Dashboard Automation Suite
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Power BI](https://img.shields.io/badge/PowerBI-Enabled-yellow.svg)
