@@ -5,26 +5,26 @@
 ![SQL](https://img.shields.io/badge/SQL-Server-orange.svg)
 ![Time Saved](https://img.shields.io/badge/Time_Saved-25hrs/month-success.svg)
 
-## ⚡ Business Impact
+## Business Impact
 
 - **95% faster** report delivery (3 days → 2 hours)
 - **25+ hours/month** saved through automation
 - **15+ dashboards** serving 50+ business users
 - **Real-time insights** enabling C-suite decision-making
 
-## 📋 Project Overview
+## Project Overview
 
 End-to-end automated reporting solution integrating SQL Server data extraction, Python-based ETL pipelines, and Power BI dashboard deployment. Eliminates manual report generation while providing executives with real-time business intelligence.
 
 ### Key Features
 
-✅ **Automated Data Pipeline**: Scheduled ETL jobs with error handling  
-✅ **Multi-source Integration**: Connects 10+ data sources seamlessly  
-✅ **Power BI Automation**: Programmatic dataset refresh and deployment  
-✅ **Email Distribution**: Automated report delivery to stakeholders  
-✅ **Error Monitoring**: Real-time alerts for pipeline failures
+**Automated Data Pipeline**: Scheduled ETL jobs with error handling  
+**Multi-source Integration**: Connects 10+ data sources seamlessly  
+**Power BI Automation**: Programmatic dataset refresh and deployment  
+**Email Distribution**: Automated report delivery to stakeholders  
+**Error Monitoring**: Real-time alerts for pipeline failures
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
@@ -39,7 +39,7 @@ End-to-end automated reporting solution integrating SQL Server data extraction, 
 └─────────────────┘      └──────────────────┘      └─────────────────┘
 ```
 
-## 📊 Dashboard Portfolio
+## Dashboard Portfolio
 
 ### 1. **Executive Summary Dashboard**
 - **KPIs**: Revenue, Customer Count, Churn Rate, NPS Score
@@ -71,7 +71,7 @@ End-to-end automated reporting solution integrating SQL Server data extraction, 
 - **Frequency**: Weekly on Mondays
 - **Users**: Marketing Team
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -119,7 +119,7 @@ python main.py --mode distribute
 python main.py --dashboard sales --mode full
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 dashboard-automation/
@@ -175,7 +175,7 @@ dashboard-automation/
 └── README.md
 ```
 
-## 🔄 ETL Pipeline Details
+## ETL Pipeline Details
 
 ### 1. Data Extraction
 
@@ -238,7 +238,7 @@ def refresh_powerbi_dataset(dataset_id):
     return response.status_code == 202
 ```
 
-## 📧 Automated Email Reports
+## Automated Email Reports
 
 ### Executive Daily Summary
 
@@ -267,7 +267,7 @@ def refresh_powerbi_dataset(dataset_id):
 </html>
 ```
 
-## ⏰ Automation Schedule
+## Automation Schedule
 
 ```bash
 # Daily Executive Summary - 6:00 AM
@@ -283,7 +283,7 @@ def refresh_powerbi_dataset(dataset_id):
 0 9 * * 1 python main.py --dashboard marketing --mode full --email
 ```
 
-## 📊 Sample Power BI Visuals
+## Sample Power BI Visuals
 
 ### KPI Cards with Conditional Formatting
 
@@ -316,7 +316,7 @@ IF(
 )
 ```
 
-## 🎯 Key Technical Achievements
+## Key Technical Achievements
 
 ### Performance Optimization
 
@@ -345,7 +345,7 @@ def safe_extract(source_name, extraction_func):
             time.sleep(30)  # Wait before retry
 ```
 
-## 📈 Business Impact Metrics
+## Business Impact Metrics
 
 ### Time Savings
 
@@ -366,7 +366,7 @@ def safe_extract(source_name, extraction_func):
 - **Report Downloads**: 75+ per week
 - **Satisfaction Score**: 4.8/5.0
 
-## 🔐 Security & Compliance
+## Security & Compliance
 
 ### Data Access Control
 
@@ -390,7 +390,7 @@ def log_access(user_id, dashboard_name, action):
     audit_logger.info(json.dumps(log_entry))
 ```
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -403,7 +403,7 @@ def log_access(user_id, dashboard_name, action):
 **Issue**: Data extraction timeout  
 **Solution**: Optimize SQL queries, increase timeout threshold
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time streaming dashboards using Power BI streaming datasets
 - [ ] Natural language query interface (Power BI Q&A)
@@ -411,7 +411,7 @@ def log_access(user_id, dashboard_name, action):
 - [ ] Mobile app optimization for executive on-the-go access
 - [ ] Slack/Teams integration for instant notifications
 
-## 👤 Author
+## Author
 
 **T Samuel Paul**  
 Data Analyst | BI Developer
@@ -419,7 +419,7 @@ Data Analyst | BI Developer
 - LinkedIn: [linkedin.com/in/tsamuelpaul01](https://www.linkedin.com/in/tsamuelpaul01)
 - Email: tsamuelpaul01@gmail.com
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details.
 
