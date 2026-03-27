@@ -5,7 +5,7 @@
 ![SQL](https://img.shields.io/badge/SQL-Server-orange.svg)
 ![Time Saved](https://img.shields.io/badge/Time_Saved-25hrs/month-success.svg)
 
-## Business Impact
+Business Impact
 
 - **95% faster** report delivery (3 days → 2 hours)
 - **25+ hours/month** saved through automation
